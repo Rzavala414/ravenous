@@ -1,5 +1,6 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
+import './business.css'
+
 const business = {
     imageSrc: 'https://s3.amazonaws.com/codecademy-content/programs/react/ravenous/pizza.jpg',
     name: 'MarginOtto Pizzeria',
@@ -37,4 +38,4 @@ class Business extends React.Component{
     }
 }
 
-ReactDOM.render(<Business/>, document.getElementById('app'))
+export default Business;
