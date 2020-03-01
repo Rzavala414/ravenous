@@ -8,8 +8,8 @@ import Business from '../Business/Business';
        return (
          <div className="BusinessList">
           {
-             this.props.businesses.map(business =>{
-               return <Business business={business} />
+             this.props.businesses.map(businesses =>{
+               return <Business business={businesses} />
              })
           }
 
