@@ -9,7 +9,7 @@ import Business from '../Business/Business';
          <div className="BusinessList">
           {
              this.props.businesses.map(businesses =>{
-               return <Business business={businesses} />
+               return <Business key={businesses.id}  business={businesses} />
              })
           }
 
